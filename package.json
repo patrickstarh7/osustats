@@ -1,0 +1,27 @@
+{
+  "name": "osustats",
+  "version": "1.0.0",
+  "description": "An api that will return the stats of a given osu! player username.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickstarh7/osustats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickstarh7/osustats/issues"
+  },
+  "homepage": "https://github.com/patrickstarh7/osustats#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "puppeteer": "^13.1.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  }
+}
